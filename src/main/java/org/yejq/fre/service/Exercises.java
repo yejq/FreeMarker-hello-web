@@ -29,4 +29,12 @@ public class Exercises{
 	public void testMethod(Model model){
 		model.addAttribute("indexOf", new IndexOfMethod());
 	}
+	
+	public void testVariable(Model model){
+		model.addAttribute("user", "lucy");
+	}
+	
+	public void testNamespace(Model model){
+		model.addAttribute("user", "lucy");
+	}
 }
